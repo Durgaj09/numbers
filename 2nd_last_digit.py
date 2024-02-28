@@ -1,0 +1,9 @@
+n=int(input())
+count=0
+while(n>0):
+    b=n%10
+    count+=1
+    if(count==2):
+        print(b)
+        break
+    n=n//10    
